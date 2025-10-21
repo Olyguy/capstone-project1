@@ -1,1 +1,1 @@
-The file index.html contains my portfolio
+The file index.html contains the portfolio
