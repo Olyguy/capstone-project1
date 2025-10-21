@@ -1,61 +1,137 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Resume</title>
-    </head>
-    <body>
-        <h1>Erkan Altundal</h1>
-        <img src="er459175@ucf(1).jpg" alt="mein profile" height="100"/>
-        <h2>Summary</h2>
-        <p>Currently, I am a Computer Science student at University of Central Florida, where I focus on system-level programming and software engineering. I am proficient in C, Python, and Java, and these projects attest to my skills in low-level memory management and user interface design.</p>
-        <p>I also have experience in team-oriented roles. I have held various positions, from mentoring Walmart associates to working under tight deadlines in fast food restaurants. All of these roles helped to refine my soft skills and improved my communication, adaptability, and leadership capabilities.</p>
-        <p>Currently, I am searching for vacancies with systems software, backend development, or cybersecurity. In my open projects, I want to integrate my technical skills, interact with a team, and most importantly, expand my knowledge.</p>
-        <hr/>        
-        <h2>Education</h2>
-        <ul>
-        <li>University of Central Florida - Orlando, FL</li> 
-        Bachelor of Science in Computer Science,	Summer 2026, GPA: 3.5
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erkan Altundal | Portfolio</title>
+  <style>
+    body {
+        max-width: 780px;
+        margin: 2rem auto;
+        font: 16px/1.5 system-ui, Arial, sans-serif;
+        color:#111; 
+    }
+    header {
+        display:flex; align-items:center; gap:1rem;
+    }
+    img {
+        border-radius: 8px;
+    }
+    h1 {
+        margin:0;
+    }
+    h2 {
+        margin-top:2rem;
+    }
+    ul {
+        padding-left:1.2rem;
+    }
+    hr {
+        margin:1.5rem 0;
+    }
+    .meta {
+        color:#555; font-size:0.95rem;
+    }
+    .two-col li {
+        margin-bottom: .35rem;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    footer {
+        margin-top:2rem; color:#666; font-size:0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="er459175@ucf(1).jpg" alt="mein profile" height="100" />
+    <div>
+      <h1>Erkan Altundal</h1>
+      <div class="meta">Computer Science @ University of Central Florida</div>
+      <div class="meta">
+        <a href="mailto:er459175@ucf.edu">er459175@ucf.edu</a> ·
+        <a href="https://github.com/Olyguy" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
 
-        <li>Valencia College - Orlando, FL</li>  
-        Associate in Arts, December 2023, GPA: 3.5
-        </ul>
+  <main>
+    <section>
+      <h2>Summary</h2>
+      <p>I’m a CS student at UCF focused on system-level programming and software engineering. Proficient in C, Python, and Java; projects include low-level memory work and CLI/UI design.</p>
+      <p>I’ve thrived in team-oriented roles—from mentoring Walmart associates to working under tight deadlines in food service—strengthening communication, adaptability, and leadership.</p>
+      <p>Actively seeking roles in systems software, backend, or cybersecurity, with a goal to learn fast, collaborate well, and ship reliable software.</p>
+    </section>
 
-        <hr/>
-        <h2>Work Experience</h2>
-        Walmart Inc 
-        <br/>
-        Associate, January 2024 - May 2025
-        <ul>                           
-            <li>Utilized Walmart’s digital fulfillment system to pick, stage, and load 100+ online grocery orders per shift, ensuring efficient and accurate delivery to customers</li>
-            <li>Verified stock status through Walmart's digital inventory system 100+ times a shift, reducing order errors and improving pick-time efficiency</li>
-            <li>Took initiative to mentor new team members on handheld device usage and order workflow, contributing to faster onboarding and improved team coordination</li>
-        </ul>
-        Mario's Pizza LLC
-        <br/>
-        Cook, Driver, Server, January 2020 - July 2022
-        <ul>
-            <li>Prepared and packaged 40+ Italian meals per shift and delivered to customers efficiently while collaborating with kitchen and service teams</li>
-            <li>Served 50–80 dine-in and takeout customers per shift, maintaining accuracy and professionalism in a high-volume restaurant setting</li>
-            <li>Trained new hires on delivery routing, order handling, and POS operation, demonstrating leadership and reliability in fast-paced shifts</li>
-        </ul>
-        Vatan Computer
-        <br/>
-        Associate  May 2018 - October 2018
-        <ul>
-            <li>Provided technical support and product guidance to customers purchasing custom-built PCs, components, and gaming accessories</li>
-            <li>Demonstrated leadership by taking the initiative to reorganize display layouts for high-demand products, enhancing customer access and sales efficiency</li>
-        </ul>
-        <hr/>
-        <h2>Skills</h2>
-        <ul>
-            C, C++, C#, Python, Java, JavaScript, CSS, HTML, SQL<br/>
-            Microsoft (Word, Excel, PowerPoint)<br/>
-            Google (Drive, Docs, Slides)<br/>
-            Well-adapted to teamwork<br/>
-            Written and oral communication skills<br/>
-            English (Fluent) and Turkish (Native)<br/>
+    <hr/>
 
-        </ul>
-    </body>
-    <footer>© 2025 Erkan</footer>
+    <section>
+      <h2>Education</h2>
+      <ul class="two-col">
+        <li><strong>University of Central Florida</strong> — B.S. Computer Science, <em>Summer 2026</em> · GPA: 3.4 · Orlando, FL</li>
+        <li><strong>Valencia College</strong> — A.A., <em>Dec 2023</em> · GPA: 3.5 · Orlando, FL</li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Battleship Game (C)</strong> —
+          <a href="https://github.com/Olyguy/capstone-project1/tree/main/projects/Battleship" target="_blank" rel="noopener">code & README</a>
+        </li>
+        <li>
+          <strong>Virtual Machine / PM/0 (C)</strong> —
+          <a href="https://github.com/Olyguy/capstone-project1/tree/main/projects/VM" target="_blank" rel="noopener">code & README</a>
+        </li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Work Experience</h2>
+      <p><strong>Walmart Inc</strong> — Associate · Jan 2024–May 2025</p>
+      <ul>
+        <li>Picked/staged/loaded 100+ online grocery orders per shift via digital fulfillment tools.</li>
+        <li>Verified inventory 100+ times/shift, reducing order errors and improving pick-time efficiency.</li>
+        <li>Mentored new team members on handheld workflows, accelerating onboarding and team output.</li>
+      </ul>
+
+      <p><strong>Mario’s Pizza LLC</strong> — Cook, Driver, Server · Jan 2020–Jul 2022</p>
+      <ul>
+        <li>Prepared 40+ meals/shift; collaborated with kitchen/service teams for timely delivery.</li>
+        <li>Served 50–80 customers/shift with accuracy and professionalism in a high-volume setting.</li>
+        <li>Trained new hires on routing, order handling, and POS operation.</li>
+      </ul>
+
+      <p><strong>Vatan Computer</strong> — Associate · May 2018–Oct 2018</p>
+      <ul>
+        <li>Advised customers on custom PCs, components, and gaming accessories.</li>
+        <li>Improved display layouts for high-demand products to boost access and sales.</li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C, C++, C#, Python, Java, JavaScript, SQL</li>
+        <li><strong>Web:</strong> HTML, CSS</li>
+        <li><strong>Tools:</strong> Git/GitHub, VS Code, Microsoft Office, Google Workspace</li>
+        <li><strong>Soft Skills:</strong> teamwork, written/oral communication</li>
+        <li><strong>Languages:</strong> English (Fluent), Turkish (Native)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© 2025 Erkan Altundal</footer>
+</body>
 </html>
